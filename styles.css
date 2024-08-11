@@ -1,0 +1,53 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    background-color: white;
+    color: red;
+    font-size: 75px;
+    text-align: center;
+}
+
+.indo-flag {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 45px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 24px;
+}
+
+.recipes-container {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 12px;
+    text-align: center;
+    padding: 2px 24px;
+}
+
+.recipes-container ol {
+    margin: 2px 72px;
+}
+
+.recipes-container img {
+    width: 250px;
+    height: auto;
+}
+
+.title {
+    color: blue;
+    font-size: 45px;
+}
