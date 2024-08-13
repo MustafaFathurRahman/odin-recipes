@@ -1,34 +1,77 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 720px;
+    margin: 72px auto;
 }
 
 h1 {
-    background-color: white;
-    color: red;
+    color: white;
     font-size: 75px;
     text-align: center;
+    padding-top: 48px;
+    margin-bottom: 10px;
+}
+
+.odin-icon {
+    background-color: rgb(247, 65, 65);
+    width: 200px;
+    margin: 12px auto;
+    padding: 24px;
+    border: 6px solid rgb(59, 2, 2);
+    border-radius: 50%  
+}
+
+.odin-icon img {
+    width: 124px;
 }
 
 .indo-flag {
-    text-align: center;
+    display: inline-block;
+    border: 8px dotted yellow;
+}
+
+.indo-flag img {
+    width: 84px;
 }
 
 .container {
+    background-color: rgb(136, 16, 16);
+    padding: 3px;
+    border: 8px solid rgb(255, 91, 91);
+    border-radius: 12px;
     text-align: center;
 }
 
 .container h2 {
+    color: white;
     font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.garuda {
+    display: block;
+    margin: 12px auto;
+    padding: 6px;
 }
 
 ul {
     list-style-type: none;
+    margin-bottom: 10px;
 }
 
 li a{
     text-decoration: none;
-    color: blue;
+    color: whitesmoke;
     font-size: 24px;
+}
+
+li a:hover {
+    color: yellow;
 }
 
 .recipes-container {
